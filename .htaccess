@@ -1,0 +1,8 @@
+<FilesMatch ".*flag.*">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+<Files .htaccess>
+    Deny from all
+</Files>
